@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1E0EF327F8CD03005B03F7 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E0EF227F8CD03005B03F7 /* CreationViewController.swift */; };
+		8F1E0EF5280024E6005B03F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F1E0EF4280024E6005B03F7 /* README.md */; };
 		8FA605E527F8BF8D005E43AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA605E427F8BF8D005E43AA /* AppDelegate.swift */; };
 		8FA605E727F8BF8D005E43AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA605E627F8BF8D005E43AA /* SceneDelegate.swift */; };
 		8FA605E927F8BF8D005E43AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA605E827F8BF8D005E43AA /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F1E0EF227F8CD03005B03F7 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
+		8F1E0EF4280024E6005B03F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8FA605E127F8BF8D005E43AA /* newFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA605E427F8BF8D005E43AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA605E627F8BF8D005E43AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		8FA605D827F8BF8D005E43AA = {
 			isa = PBXGroup;
 			children = (
+				8F1E0EF4280024E6005B03F7 /* README.md */,
+				8F1E0EF227F8CD03005B03F7 /* CreationViewController.swift */,
 				8FA605E327F8BF8D005E43AA /* newFlashcards */,
 				8FA605E227F8BF8D005E43AA /* Products */,
 			);
@@ -127,6 +133,7 @@
 			files = (
 				8FA605F127F8BF8E005E43AA /* LaunchScreen.storyboard in Resources */,
 				8FA605EE27F8BF8E005E43AA /* Assets.xcassets in Resources */,
+				8F1E0EF5280024E6005B03F7 /* README.md in Resources */,
 				8FA605EC27F8BF8D005E43AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				8FA605E927F8BF8D005E43AA /* ViewController.swift in Sources */,
 				8FA605E527F8BF8D005E43AA /* AppDelegate.swift in Sources */,
 				8FA605E727F8BF8D005E43AA /* SceneDelegate.swift in Sources */,
+				8F1E0EF327F8CD03005B03F7 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

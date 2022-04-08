@@ -5,7 +5,7 @@ This is an updated flashcard where you are able to implement your own questions,
 
 ### App Walk-though
 
-<img src=""width=200><br>
+<img src=""https://user-images.githubusercontent.com/75414965/162395042-1a4dac72-bbe7-41ba-8892-daa74a81eb70.gif""width=200><br>
 
 ## Required
 - [x] User can open the creation screen

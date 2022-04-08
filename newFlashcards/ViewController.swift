@@ -46,7 +46,6 @@ class ViewController: UIViewController {
         }
     }
 
-    //Lab 1
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         if (self.questionLabel.isHidden == true) {
             self.questionLabel.isHidden = false;
@@ -55,7 +54,6 @@ class ViewController: UIViewController {
         }
     }
     
-    //Lab Two
     func updateFlashcard(question: String, answer: String) {
         questionLabel.text = question
         answerLabel.text = answer

@@ -9,6 +9,7 @@ import UIKit
 
 class CreationViewController: UIViewController {
     
+    //Lab Two
     var flashcardsController: ViewController!
     
     @IBOutlet weak var questionTextField: UITextField!
@@ -41,11 +42,14 @@ class CreationViewController: UIViewController {
         if questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty {
             present(alert, animated: true)
         } else {
-            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
+            var isExisting = false
+            if initialQuestion != nil {
+                isExisting = true
+            }
+            flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, isExisting: isExisting)
         }
         dismiss(animated: true)
     }
-    
     /*
     // MARK: - Navigation
 

@@ -16,4 +16,4 @@ The flashcard app will help you learn how to study. This app is only at its firs
 ## Optional
 - [X] Toggle the flashcard between the question side and the answer side
 - [X] Style the question and answer side of the card to better distinguish between the two sides
-- []  Add selectable multiple choice answers beneath the card
+- [] Add selectable multiple choice answers beneath the card

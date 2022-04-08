@@ -7,7 +7,7 @@ This app incudes animation that you can see when you go on to the next flashcard
 
 ### App Walk-though
 
-<img src="https://user-images.githubusercontent.com/75414965/162410325-0215fbd9-ee06-43b3-9393-5f428dc83925.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/75414965/162411261-d80ebf35-045b-4323-b1ee-6d441cd44f5e.gif" width=200><br>
 
 ## Required
 - [X] User should see the app icon 

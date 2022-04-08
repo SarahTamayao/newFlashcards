@@ -90,7 +90,6 @@
         <!--Creation View Controller-->
         <scene sceneID="BXO-BC-liB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="m0o-i2-aEI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="h5r-uR-FFN" customClass="CreationViewController" customModule="newFlashcards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g2c-PW-TkB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -139,13 +138,13 @@
                         <outlet property="questionTextField" destination="1wr-57-0VX" id="JZK-RA-UGu"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0o-i2-aEI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1533" y="66"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LDT-zU-Fud">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5jA-b9-Xdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="udo-Nf-vLQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="aYP-Cg-guX"/>
@@ -158,6 +157,7 @@
                         <segue destination="h5r-uR-FFN" kind="relationship" relationship="rootViewController" id="tIG-Ex-8Xk"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jA-b9-Xdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="757" y="66"/>
         </scene>

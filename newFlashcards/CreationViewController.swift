@@ -25,7 +25,6 @@ class CreationViewController: UIViewController {
         answerTextField.text = initialAnswer
     }
     
-    //Lab Two
     @IBAction func didTapOnCancel(_ sender: Any) {
         dismiss(animated: true)
     }

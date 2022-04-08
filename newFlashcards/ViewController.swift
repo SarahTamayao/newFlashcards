@@ -94,7 +94,6 @@ class ViewController: UIViewController {
         saveAllFlashcardsToDisk()
     }
     
-    //Lab 3
     func updateNextPrevButtons() {
         if currentIndex == flashcards.count - 1 {
             nextButton.isEnabled = false

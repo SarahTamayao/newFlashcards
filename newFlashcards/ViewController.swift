@@ -7,15 +7,8 @@
 
 import UIKit
 
-//Lab 3
-struct Flashcard {
-    var question: String
-    var answer: String
-}
-
 class ViewController: UIViewController {
     
-    //Lab One
     @IBOutlet weak var card: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
@@ -33,8 +26,7 @@ class ViewController: UIViewController {
         questionLabel.clipsToBounds = true
         answerLabel.clipsToBounds = true
     }
-    
-    //Lab Two
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navigationController = segue.destination as! UINavigationController
         let creationController = navigationController.topViewController as! CreationViewController

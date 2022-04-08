@@ -23,7 +23,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vatican City" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vc-fz-4KK">
                                         <rect key="frame" x="0.0" y="0.0" width="299" height="185"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.56175293100000001" green="0.66666668650000005" blue="0.60486976640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.84711781808659936" green="0.94391177398787873" blue="0.89204180834415669" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" red="0.70085572559999998" green="0.88435132579999998" blue="0.8063484836" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -38,6 +38,17 @@
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPl-Wv-wyB">
+                                        <rect key="frame" x="249" y="146" width="50" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="✏️">
+                                            <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="udo-Nf-vLQ" kind="show" identifier="EditSegue" id="acZ-bG-CAY"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
@@ -45,6 +56,18 @@
                                     <outletCollection property="gestureRecognizers" destination="vIl-wS-ELm" appends="YES" id="6gU-jB-2ZA"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzh-l6-UgF">
+                                <rect key="frame" x="193" y="574" width="30" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.56175293100000001" green="0.66666668650000005" blue="0.60486976640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="udo-Nf-vLQ" kind="show" identifier="" id="60h-i6-gzW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -64,7 +87,84 @@
             </objects>
             <point key="canvasLocation" x="-17.39130434782609" y="65.625"/>
         </scene>
+        <!--Creation View Controller-->
+        <scene sceneID="BXO-BC-liB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m0o-i2-aEI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="h5r-uR-FFN" customClass="CreationViewController" customModule="newFlashcards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g2c-PW-TkB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer" textAlignment="natural" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="b3D-Hv-Ypf">
+                                <rect key="frame" x="71" y="432" width="273" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.56175293100000001" green="0.66666668650000005" blue="0.60486976640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Question" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="1wr-57-0VX">
+                                <rect key="frame" x="71" y="376" width="273" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.56175293100000001" green="0.66666668650000005" blue="0.60486976640000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C2A-Tx-rAI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Whm-HL-Iv6">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="nQS-7a-gsW">
+                            <color key="tintColor" white="0.0" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="didTapOnCancel:" destination="h5r-uR-FFN" id="wmo-Aw-2bw"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="OIx-RA-Bma">
+                            <color key="tintColor" white="0.0" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="didTapOnDone:" destination="h5r-uR-FFN" id="ilw-Jg-hTH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="answerTextField" destination="b3D-Hv-Ypf" id="7UZ-E5-Tee"/>
+                        <outlet property="questionTextField" destination="1wr-57-0VX" id="JZK-RA-UGu"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1533" y="66"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LDT-zU-Fud">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jA-b9-Xdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="udo-Nf-vLQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="aYP-Cg-guX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1PL-jY-YZG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h5r-uR-FFN" kind="relationship" relationship="rootViewController" id="tIG-Ex-8Xk"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="757" y="66"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="60h-i6-gzW"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

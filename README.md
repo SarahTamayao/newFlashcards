@@ -1,3 +1,23 @@
+## Lab 2
+
+### App Description
+This is an updated flashcard where you are able to implement your own questions, not only that, you can edit the flashcard as well if you make a mistake.
+
+### App Walk-though
+
+<img src=""width=200><br>
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [] User can add multiple choice answers in the creation screen
+
+
 ## Lab 1
 
 ### App Description
@@ -5,7 +25,7 @@ The flashcard app will help you learn how to study. This app is only at its firs
 
 ### App Walk-though
 
-<img src="https://user-images.githubusercontent.com/75414965/162395042-1a4dac72-bbe7-41ba-8892-daa74a81eb70.gif" width=200><br>
+<img src="https://user-images.githubusercontent.com/75414965/162395042-1a4dac72-bbe7-41ba-8892-daa74a81eb70.gif"width=200><br>
 
 ## Required
 - [X] Create New Project in Xcode

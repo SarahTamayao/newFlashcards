@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         card.layer.cornerRadius = 20.0
         card.layer.shadowRadius = 15.0
         card.layer.shadowColor = #colorLiteral(red: 0.7476357222, green: 0.9497290254, blue: 0.9032138586, alpha: 1)

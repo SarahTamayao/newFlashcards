@@ -28,7 +28,7 @@ You can go through multiple flashcards and re-open to see saved flashcards.
 
 ### App Walk-though
 
-<img src="" width=200><br>
+<img src="https://user-images.githubusercontent.com/75414965/162407344-4b0da995-ea9e-40d3-9f99-81ef3dc06436.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards

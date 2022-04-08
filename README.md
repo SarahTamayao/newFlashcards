@@ -25,7 +25,7 @@ This is an updated flashcard where you are able to implement your own questions,
 
 ### App Walk-though
 
-<img src="https://user-images.githubusercontent.com/75414965/162402140-a6875166-cf8d-4549-b41c-f012c6d1241a.gif" width=200><br>
+<img src= "https://user-images.githubusercontent.com/75414965/162402140-a6875166-cf8d-4549-b41c-f012c6d1241a.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen

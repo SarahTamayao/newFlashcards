@@ -3,7 +3,7 @@
 ## Lab 4
 
 ### App Description
-This app incudes animation that you can see when you go on to the next flashcard or the one before. 
+This app incudes animation that you can see when you go on to the next flashcard, the one before and when you flip the card. 
 
 ### App Walk-though
 

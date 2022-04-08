@@ -7,20 +7,17 @@
 
 import UIKit
 
-//Lab 3
 struct Flashcard {
     var question: String
     var answer: String
 }
 
 class ViewController: UIViewController {
-    
-    //Lab One
+
     @IBOutlet weak var card: UIView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
-    
-    //Lab 4
+
     @IBOutlet weak var prevButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     
@@ -49,8 +46,6 @@ class ViewController: UIViewController {
         answerLabel.clipsToBounds = true
     }
     
-    
-    //Lab Two
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navigationController = segue.destination as! UINavigationController
         let creationController = navigationController.topViewController as! CreationViewController
@@ -62,12 +57,10 @@ class ViewController: UIViewController {
         }
     }
 
-    //Lab 1
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         flipFlashcard()
     }
     
-    //Lab 4
     func flipFlashcard() {
         UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: {
             if (self.questionLabel.isHidden == true) {
@@ -116,7 +109,6 @@ class ViewController: UIViewController {
         answerLabel.text = currentFlashcards.answer
     }
     
-    //Lab Two
     func updateFlashcard(question: String, answer: String, isExisting: Bool) {
         let flashcard = Flashcard(question: question, answer: answer)
         if isExisting {
@@ -133,7 +125,6 @@ class ViewController: UIViewController {
         saveAllFlashcardsToDisk()
     }
     
-    //Lab 3
     func updateNextPrevButtons() {
         if currentIndex == flashcards.count - 1 {
             nextButton.isEnabled = false
